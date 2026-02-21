@@ -8,3 +8,8 @@ while i < 10
     break
   end
 end
+
+programming = "rubyを学習する"
+programming = "pythonを学習する"
+
+puts programming
