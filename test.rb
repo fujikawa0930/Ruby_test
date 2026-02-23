@@ -1,15 +1,9 @@
-i = 0
+orange = "Ehime"
 
-while i < 10
-  puts i
-  i = i + 1
-  if i == 7
-    puts "break"
-    break
-  end
+if orange == "Yamaguchi"
+  puts "このみかんは山口県産です。"
+elsif orange == "Ehime"
+  puts "このみかんは山口県産ではなく、愛媛県産です。"
+else
+  puts "このみかんは山口県産でも愛媛県産でもありません。"
 end
-
-programming = "rubyを学習する"
-programming = "pythonを学習する"
-
-puts programming
