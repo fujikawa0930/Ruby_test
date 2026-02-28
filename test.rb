@@ -11,3 +11,9 @@ while dice != 6 do
   dice = rand(1..6)
   puts dice
 end
+
+def say_hello
+  puts "hello"
+end
+
+say_hello
