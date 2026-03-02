@@ -1,17 +1,3 @@
-dice = 0
-
-while dice != 6 do
-  dice = rand(1..6)
-  puts dice
-end
-
-dice = 0
-
-while dice != 6 do
-  dice = rand(1..6)
-  puts dice
-end
-
 def say_hello
   puts "hello"
 end
@@ -22,4 +8,18 @@ amounts = {"ブルーベリー"=>10, "メロン"=>3, "イチゴ"=>6}
 
 amounts.each do |fruit, amount|
   puts "#{fruit}は#{amount}個です。"
+end
+
+hand = "パー"
+
+if hand == "パー"
+  puts "出した手はパーです"
+end
+
+if hand != "パー"
+  puts "出した手はパーではありません"
+end
+
+if (hand == "グー") || (hand == "パー")
+  puts "出した手はグーまたはパーです"
 end
