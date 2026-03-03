@@ -23,3 +23,7 @@ end
 if (hand == "グー") || (hand == "パー")
   puts "出した手はグーまたはパーです"
 end
+
+for i in 1..5 do
+  puts i
+end
