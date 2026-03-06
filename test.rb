@@ -25,3 +25,17 @@ end
 if (hand == "グー") || (hand == "パー")
   puts "出した手はグーまたはパーです"
 end
+
+hand = "パー"
+
+if hand == "パー"
+  puts "出した手はパーです"
+end
+
+if hand != "パー"
+  puts "出した手はパーではありません"
+end
+
+if (hand == "グー") || (hand == "パー")
+  puts "出した手はグーまたはパーです"
+end
