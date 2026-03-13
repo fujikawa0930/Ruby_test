@@ -16,14 +16,3 @@ amounts.each do |fruit, amount|
   puts "#{fruit}は#{amount}個です。"
 end
 
-hand = "パー"
-
-if hand == "パー"
-  puts "出した手はパーです"
-end
-
-if hand != "パー"
-  puts "出した手はパーではありません"
-end
-
-
