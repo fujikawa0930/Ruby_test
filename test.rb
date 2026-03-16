@@ -28,8 +28,3 @@ amounts.each do |fruit, amount|
   puts "#{fruit}は#{amount}個です。"
 end
 
-def say_hello
-  puts "hello"
-end
-
-say_hello
