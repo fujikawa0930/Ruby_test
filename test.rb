@@ -37,13 +37,3 @@ say_hello
 def say_hello
   puts "hello"
 end
-
-say_hello
-
-say_hello
-
-def say_hello
-  puts "hello"
-end
-
-say_hello
